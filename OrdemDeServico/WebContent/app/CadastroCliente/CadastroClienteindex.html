@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Cadastro Cliente</title>
+
+<script src="../resources/js/jquery.js"></script>
+
+<link rel="stylesheet" href="../resources/css/CadastroCliente/jquery-ui.css">
+
+<script src="../resources/js/jquery-ui.js"></script>
+
+<script src="../resources/js/ajax.js"></script>
+
+<link rel="stylesheet" href="../resources/css/CadastroCliente/CadastroCliente.css">
+<link rel="stylesheet" href="../resources/css/background/fundosite.jpg">
+<script src="../resources/js/cadastroCliente.js"></script>
+
+<script src="../CadastroCliente/CadastroClienteindex.js"></script>
+
+<script type="text/javascript">
+function home()
+{
+location.href="../Home.html"
+}
+
+function cadastrarUsuario()
+{
+location.href="../CadastroUsuario/CadastroUsuarioindex.html"
+}
+function cadastrarCliente()
+{
+location.href="../CadastroCliente/CadastroClienteindex.html"
+}
+function ordemdeServico()
+{
+location.href="../OrdemServico/OrdemServicoindex.html"
+}
+function consultarOS()
+{
+location.href="../OrdemServico/ConsultaOrdemServicoindex.html"
+}
+function sair()
+{
+location.href="../../Login.html"
+}
+
+</script>
+
+</head>
+<body>
+
+<h2>Cadastro de Cliente</h2>
+
+<input type="button" onClick="home()"  value="Inicio" style="width: 176px; height: 36px">
+<input type="button" onClick="cadastrarUsuario()"  value="Cadastrar Usuario" style="width: 176px; height: 36px">
+<input type="button" onClick="cadastrarCliente()" value="Cadastrar Cliente" style="width: 176px; height: 36px" >
+<input type="button" onClick="ordemdeServico()" value="Ordem de Servico" style="width: 176px; height: 36px">
+<input type="button" onClick="consultarOS()" value="Consultar Ordem de Servico" style="width: 176px; height: 36px">
+<input type="button" onClick="sair()" value="Sair" style="width: 176px; height: 36px">
+
+    
+    <div  id="CadastroCliente" class="div"></div>
+    <div id="listaDeClientes"  class="div"></div>
+
+
+</body>
+</html>

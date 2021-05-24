@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Ordem de Serviço</title>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script src="jquery-ui.js"></script>
+
+<script src="../resources/js/ajax.js"></script>
+
+<link rel="stylesheet" href="../resources/css/OrdemServico/OrdemServico.css">
+
+<script src="../resources/js/ordemServico.js"></script>
+
+<script src="../OrdemServico/ordemServicoindex.js"></script>
+
+<script type="text/javascript">
+
+function home()
+{
+location.href="../Home.html"
+}
+
+function cadastrarUsuario()
+{
+location.href="../CadastroUsuario/CadastroUsuarioindex.html"
+}
+function cadastrarCliente()
+{
+location.href="../CadastroCliente/CadastroClienteindex.html"
+}
+function ordemdeServico()
+{
+location.href="../OrdemServico/OrdemServicoindex.html"
+}
+function consultarOS()
+{
+location.href="../OrdemServico/ConsultaOrdemServicoindex.html"
+}
+function sair()
+{
+location.href="../../Login.html"
+}
+
+</script>
+
+
+</head>
+
+<body>
+    <h2>Ordem de Servico</h2>
+    
+    <input type="button" onClick="home()"  value="Inicio" style="width: 176px; height: 36px">
+    <input type="button" onClick="cadastrarUsuario()"  value="Cadastrar Usuario" style="width: 176px; height: 36px">
+        <input type="button" onClick="cadastrarCliente()" value="Cadastrar Cliente" style="width: 176px; height: 36px" >
+        <input type="button" onClick="ordemdeServico()" value="Ordem de Servico" style="width: 176px; height: 36px">
+       <input type="button" onClick="consultarOS()" value="Consultar Ordem de Servico" style="width: 176px; height: 36px">
+       <input type="button" onClick="sair()" value="Sair" style="width: 176px; height: 36px">
+	   
+    
+    
+    
+    <form action="/action_page.php">
+
+  Cliente:<br>
+  <input type="text" id="cliente" />
+  <input type="hidden" id="idcliente"/>
+  <br>
+  
+ Data de Entrada:<br>
+  <input type="date" name="dataEntrada" id="dataEntrada">
+  <br>
+ 
+ Data de Entrega:<br>
+  <input type="date" name="dataEntrega" id="dataEntrega">
+  <br>
+ 
+ Equipamento:<br>
+ <input  type="text" name="equipamento" id="equipamento">
+    <br>
+    
+  Valor do Serviço:<br>
+ <input  type="number" name="valorServico" id="valorServico">
+   <br>
+ 
+ <h3>Descrição da Ordem da Serviço</h3>
+  <textarea id="descricaoOrdemServico" name="message" rows="15" cols="35"></textarea>
+ 
+  <br>
+     <button type="button" onClick="CriarOrdemServico()" value="Entrar">Criar Ordem de Serviço</button>
+		<button type="reset">Limpar Campos</button>
+</form>
+       <div id="ordemdeServico" class="div"></div>	   
+      <div id="listaDeOrdensServico"  class="div"></div>
+</body>
+</html>

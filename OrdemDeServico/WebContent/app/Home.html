@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Inicio</title>
+<link rel="stylesheet" href="resources/css/Principal/Home.css">
+<script type="text/javascript">
+
+function home()
+{
+location.href="../app/Home.html"
+}
+
+function cadastrarUsuario()
+{
+location.href="CadastroUsuario/CadastroUsuarioindex.html"
+}
+function cadastrarCliente()
+{
+location.href="CadastroCliente/CadastroClienteindex.html"
+}
+function ordemdeServico()
+{
+location.href="OrdemServico/OrdemServicoindex.html"
+}
+function consultarOS()
+{
+location.href="OrdemServico/ConsultaOrdemServicoindex.html"
+}
+function sair()
+{
+location.href="../Login.html"
+}
+
+</script>
+
+</head>
+<body>
+
+<h2>Pagina Principal</h2>
+
+<input type="button" onClick="home()"  value="Inicio" style="width: 176px; height: 36px">
+<input type="button" onClick="cadastrarUsuario()"  value="Cadastrar Usuario" style="width: 176px; height: 36px" >
+<input type="button" onClick="cadastrarCliente()" value="Cadastrar Cliente"style="width: 176px; height: 36px" >
+<input type="button" onClick="ordemdeServico()" value="Ordem de Serviço" style="width: 176px; height: 36px">
+<input type="button" onClick="consultarOS()" value="Consultar Ordem de Serviço" style="width: 176px; height: 36px">
+<input type="button" onClick="sair()" value="Sair" style="width: 176px; height: 36px">
+
+<div id="Principal" class="div"></div>
+
+</body>
+</html>

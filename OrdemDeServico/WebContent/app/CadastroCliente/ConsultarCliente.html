@@ -1,0 +1,19 @@
+<fieldset>
+	
+	<legend>Consultar Clientes</legend>
+	<label>Digite o nome do Cliente</label> 
+	<input type="text" id="consultarCliente">
+	<button type="button" onclick="SENAI.cadastroCliente.buscar()" value="Buscar">Buscar</button>
+	<div id="resultadoClientes"></div>
+
+	<div id="editarCliente" style="display: none">
+
+	
+		<label>Cliente:</label> <input id="clienteEdit" name="txtnome" type="text">
+		 <label>E-mail:</label> <input id="emailEdit" name="txtemail" type="text"> 
+		 <label>Telefone:</label> <input id="telefoneEdit" name="txttelefone" type="text">
+		 <label>Endereço:</label> <input id="enderecoEdit" name="txtendereco" type="text"> 
+		 <label>CPF/CNPJ:</label> <input id="cpfcnpjEdit" name="txtcpfcnpj" type="text">
+		 <input	name="idCliente" id="idClienteEdit" type="hidden">
+	</div>
+</fieldset>

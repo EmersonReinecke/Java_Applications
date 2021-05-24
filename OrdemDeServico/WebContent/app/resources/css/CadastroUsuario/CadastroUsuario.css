@@ -1,0 +1,53 @@
+body {
+    background: url(https://www.microage.ca/mts/wp-content/uploads/sites/34/2018/09/storyblocks-vector-circuit-network-diagram-technology-background-design_HwjL1428G_SB_PM.jpg) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body{
+	font-family:Calibri;
+
+}
+
+fieldset{
+	width:520px;
+	padding:10px;
+	border:1 px solid #EEE9E9;
+	
+}
+
+label{
+	display:block;
+	
+}
+
+input{
+	margin-bottom:5px;
+	width:400px;
+	border-radius:5px;
+	padding:5px;
+}
+
+legend{
+	font-size:18px;
+	color:#4682B4;
+	font-weight:bold;
+}
+button{
+	border-radius:5px;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Consulta de Ordem de Serviço</title>
+
+
+<link rel="stylesheet" href="jquery-ui.css">
+
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script src="jquery-ui.js"></script>
+
+<script src="../resources/js/ajax.js"></script>
+
+<link rel="stylesheet" href="../resources/css/OrdemServico/ConsultaOrdemServico.css">
+
+<script src="../resources/js/ordemServico.js"></script>
+
+<script type="text/javascript">
+function home()
+{
+location.href="../Home.html"
+}
+
+
+function cadastrarUsuario()
+{
+location.href="../CadastroUsuario/CadastroUsuarioindex.html"
+}
+function cadastrarCliente()
+{
+location.href="../CadastroCliente/CadastroClienteindex.html"
+}
+function ordemdeServico()
+{
+location.href="../OrdemServico/OrdemServicoindex.html"
+}
+function consultarOS()
+{
+location.href="../OrdemServico/ConsultaOrdemServicoindex.html"
+}
+function sair()
+{
+location.href="../../Login.html"
+}
+
+
+</script>
+
+
+
+
+</head>
+
+<body>
+       
+       <h2>Consulta Ordem de Serviço</h2>
+        <input type="button" onClick="home()"  value="Inicio" style="width: 176px; height: 36px">
+        <input type="button" onClick="cadastrarUsuario()"  value="Cadastrar Usuario" style="width: 176px; height: 36px">
+        <input type="button" onClick="cadastrarCliente()" value="Cadastrar Cliente" style="width: 176px; height: 36px">
+        <input type="button" onClick="ordemdeServico()" value="Ordem de Serviço" style="width: 176px; height: 36px">
+        <input type="button" onClick="consultarOS()" value="Consultar Ordem de Serviço" style="width: 176px; height: 36px">
+        <input type="button" onClick="sair()" value="Sair" style="width: 176px; height: 36px">
+	   
+   
+    <form action="/action_page.php">
+
+ 
+   
+ Data de Entrada:<br>
+  <input type="date" name="dataEntrada" id="dataEntrada">
+  <br>
+  
+  Data de Entrega:<br>
+  <input type="date" name="dataEntrega" id="dataEntrega">
+  <br>
+ 
+   <br>
+     <input type="hidden" id="dataEntrada">
+     <button type="button" onClick="buscarOrdem()" value="Entrar">Consultar Ordem de Serviço</button>
+		<button type="reset">Limpar Campos</button>
+</form>
+	   
+	    
+	   
+	   
+      <div id="ResultadoOrdensServico"  class="div"></div>
+      
+      <div id="exibirOrdem" style="display:none">
+		
+	 Cliente:<br>
+    <input type="text" id="cliente"  readonly/>
+     <br>
+		    
+      Data de Entrada:<br>
+    <input type="text" id="dataEntradaOrdem" readonly />
+     <br>
+     
+      Data de Entrega:<br>
+    <input type="text" id="dataEntregaOrdem" readonly/>
+     <br>	 
+     
+          Equipamento:<br>
+    <input type="text" id="equipamento" readonly/>
+     <br>
+         
+          Valor:<br>
+    <input type="text" id="valorServico" readonly/>
+     <br>		
+		    Descrição da Ordem de Serviço:<br>
+    <textarea id="descricaoOrdemServico" name="message" rows="5" cols="50" readonly></textarea>
+     <br>	 
+		 
+		 
+		
+	</div>
+		
+		
+		
+	
+      
+      
+</body>
+</html>
+
+
+
+
+
+
+
+
+

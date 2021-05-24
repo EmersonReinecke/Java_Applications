@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OrdemDeServico">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="gson-2.3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/gson-2.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cglib-nodep-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/cglib-nodep-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-json-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jersey-json-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jackson-jaxrs-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/commons-logging-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.15.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.6.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/gson-2.6.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jersey-client-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jersey-server-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/commons-collections-3.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-xc-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jackson-xc-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jettison-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jettison-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jersey-core-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-servlet-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jersey-servlet-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/jackson-core-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.35-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/OrdemDeServico/WebContent/WEB-INF/lib/mysql-connector-java-5.1.35-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="OrdemDeServico"/>
+        <property name="java-output-path" value="/OrdemDeServico/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,47 @@
+body{
+	font-family: Calibri;
+	}
+	fieldset{
+	   width:520px;
+	   padding:10px;
+	   border:1px solid #EEE9E9;
+	}
+	label{
+	    display:block;
+	}
+	input{
+	    margin-bottom:5px;
+	    width:400px;
+	    border-radius:5px;
+	    padding:5px;
+	 }
+	legend{
+	  font-size: 18px;
+	  color: #4682B4;
+	  font-weight: bold
+	}
+	button{
+	   border-radius:5px;
+	   padding:5px;
+	}
+	input:hover{
+	   background-color: #FAFAFA;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
